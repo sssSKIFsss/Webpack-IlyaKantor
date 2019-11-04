@@ -1,0 +1,28 @@
+{
+  "name": "webpacklearn",
+  "version": "1.0.0",
+  "description": "учимся",
+  "main": "home.js",
+  "author": "skif",
+  "license": "ISC",
+  "scripts": {
+    "simple": "webpack -d --color",
+    "start": "webpack --mode=production -- color",
+    "test": "NODE_ENV=development webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sssSKIFsss/Webpack-IlyaKantor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sssSKIFsss/Webpack-IlyaKantor/issues"
+  },
+  "homepage": "https://github.com/sssSKIFsss/Webpack-IlyaKantor#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-static": "^0.7.11",
+    "path": "^0.12.7",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}

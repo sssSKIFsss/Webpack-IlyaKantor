@@ -1,0 +1,10 @@
+.idea/
+node_modules/
+bower_components/
+dist/
+build/
+temp/
+tmp/
+login.txt
+tags
+package-lock.json
